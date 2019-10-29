@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/zJustMarcel02/GameModeUI
+branches:
+- master
+projects:
+  GameModeUI:
+    path: ""
+...

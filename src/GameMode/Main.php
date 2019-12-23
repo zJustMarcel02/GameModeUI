@@ -26,7 +26,7 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
         switch($cmd->getName()){                    
             case "gmui":
-                if ($sender->hasPermission("gmui.cmd")){
+                if ($sender->hasPermission("gmui.use")){
                      $this->Menu($sender);
                 }else{     
                      $sender->sendMessage(TextFormat::RED . "You dont have the permission to execute this command.");
